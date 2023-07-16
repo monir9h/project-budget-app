@@ -48,5 +48,12 @@ module.exports =[
     from: "Doller Tree",
     catagory:"Grocery",
     date:"01/11/2023"
+},
+{
+    name: "Penny",
+    amount: -0.01,
+    from: "Bank of America",
+    catagory:"Adjustment",
+    date:"02/20/2009"
 }
 ];

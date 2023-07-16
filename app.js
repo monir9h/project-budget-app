@@ -17,8 +17,8 @@ app.get("/", (req, res)=>{
 })
 
 //Controller
-const transectionsController = require("./contollers/transectionsController.js")
-app.use("/transections", transectionsController)
+const transactionsController = require("./contollers/transactionsController.js")
+app.use("/transactions", transactionsController)
 
 //404 page
 app.get("*", (req, res)=>{
