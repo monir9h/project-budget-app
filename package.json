@@ -2,7 +2,7 @@
   "name": "project-budget-app-backend",
   "version": "1.0.0",
   "description": "This is a demo backend banking application.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/monir9h/project-budget-app-backend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
   }
 }
